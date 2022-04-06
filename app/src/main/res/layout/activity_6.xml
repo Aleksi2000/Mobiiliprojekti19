@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/taimen" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yleistietoa"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="92dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Taimen (Salmo trutta) on ulkonäöltään hyvin paljon lohta muistuttava eurooppalainen lohikalalaji." />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="23dp"
+                    android:layout_height="300dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/taimenlevinneisyys" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pyydystäminen"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yleisesti taimen ja lohi erotetaan toisistaan sillä, että taimenella on pilkkuja koko kyljellä ja lohen pilkutus sijoittuu kylkiviivan yläpuolelle. Toinen yleinen ero on, että taimenen pyrstön pää on yleensä suora, ja lohella pyrstössä on lovi. Kumpikaan näistä menetelmistä ei ole täysin varma, ja on aiheuttanut ongelmia jopa tutkijoille. Suomunäytteellä asiasta saadaan kuitenkin täysi varmuus. Taimen on yleensä pituudeltaan 35–70 cm. Taimen on myös lohta pienempi. Taimenen lihan väri on yleensä oranssinpunainen, mutta väri voi vaihdella taimenen ravinnon sekä elin- ja kasvuympäristön mukaan valkoisesta tummanpunaiseen." />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesä"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Taimen syntyy keväisin kudusta yleensä jokiin ja pieniin puroihin. Sieltä se poikasvaiheen jälkeen joko suuntaa vaellukselle suurempiin vesistöihin tai jää synnyinseuduilleen elämään ns. paikallisena kalana. Muutaman vuoden kuluttua taimen palaa synnyinseudulleen kutemaan. Taimennaaras saavuttaa sukukypsyyden kolmesta viiteen -vuotiaana. Pariksi kelpaa missä tahansa elinvuosiaan viettänyt taimen, eli merivaellukselta saapunut suurikokoinen taimen saattaa valita kutuparikseen puroon paikalliseksi jääneen niukemmalla ravinnolla eläneen kalan siinä missä toisen merivaellukselta saapuneen kalankin.  Elinympäristön ravintotilanne ja mahdollisuudet oman elinympäristönsä ulkopuoliseen vesistöön pääsemiseen vaikuttavat suuntaako taimen poikasvaiheen jälkeen noin kahden vuoden ikäisenä vaellukselle järveen, mereen tai suurempaan jokeen, vai jääkö se paikallisena kalana asustamaan synnyinalueilleen. Kutupuroonsa jäävät taimenet kasvavat niukemmalla ravinnolla ja hitaammin, kuin suurilla selillä pikkukaloja ravinnokseen nauttivat yksilöt. Näin ollen puroon jäävät kalat saavuttavat sukukypsyyden pienempikokoisina kuin vaelluksella käyneet kalat." />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Syksy"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvi"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kevät"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
