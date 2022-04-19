@@ -20,7 +20,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/sayne" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                app:srcCompat="@drawable/sayneaito" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
             <TextView
                 android:id="@+id/textView3"
