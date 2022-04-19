@@ -12,7 +12,7 @@ class Activity8 : AppCompatActivity() {
 
 
 
-        actionBar !!.title = "Särki"
+        actionBar !!.title = "Made"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
     }

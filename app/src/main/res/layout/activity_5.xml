@@ -20,7 +20,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/kuhaaito" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                app:srcCompat="@drawable/taimenaito" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
             <TextView
                 android:id="@+id/textView3"
@@ -41,14 +41,14 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Taimen (Salmo trutta) on ulkonäöltään hyvin paljon lohta muistuttava eurooppalainen lohikalalaji." />
 
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="23dp"
                     android:layout_height="300dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/kuhalevinneisyys" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+                    app:srcCompat="@drawable/taimenlevinneisyys" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
             </LinearLayout>
 

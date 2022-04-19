@@ -12,7 +12,7 @@ class Activity6 : AppCompatActivity() {
 
 
 
-        actionBar !!.title = "Taimen"
+        actionBar !!.title = "Kuha"
         actionBar.setDisplayHomeAsUpEnabled(true)
 
     }
