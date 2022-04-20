@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,14 +42,14 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Muikku (Coregonus albula) on siikojen sukuun (Coregonus) kuuluva 5–20 senttimetriä pitkä lohikala, joka elää parvina Euroopan pohjoisosan järvissä ja Itämeren vähäsuolaisissa reunaosissa. Tämä pieni lohikala on Suomen sisävesien ammattikalastajien tärkein saaliskala. Muikkua pyydystetään troolilla, nuotalla, rysällä ja pienisilmäisellä muikkuverkolla." />
+                    android:text="Muikku on siikojen sukuun kuuluva noin 5-20 senttimetriä pitkä ja 10-70 grammaa painava lohikala. Siika elää Euroopan pohjoisosan järvissä ja Itämeren vähäsuolaisissa reunaosissa. Muikku on pienikokoinen hopeanvärinen sukkula. Se muistuttaa läheisesti samaan sukuun kuuluvaa siikaa, mutta lajit erottaa kuitenkin helposti leukojen perusteella: muikulla alaleuka on yläleukaa pidempi, mutta siialla päin vastoin." />
 
                 <ImageView
                     android:id="@+id/imageView6"
                     android:layout_width="23dp"
                     android:layout_height="300dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/muikkulevinneisyys" />
+                    app:srcCompat="@drawable/muikkulevinneisyys" /> <!-- Muokkaa <- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
             </LinearLayout>
 
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Muikku on Suomessa sisävesien ammattikalastajien tärkein saaliskala. Ammattikalastajat pyytivät Suomen sisävesiltä yhteensä 5,17 miljoonaa kiloa kalaa vuonna 2018. Tästä muikun osuus oli 2,43 miljoonaa kiloa, kun toiseksi jääneen kuhan osuus oli vain 727 tuhatta kiloa. Vuonna 2018 muikkua kalastettiin yhteensä 3,33 miljoonaa kiloa. Ammattikalastajien muikkusaalis niin sisä- kuin merivesiltä oli 2,6 miljoonaa kiloa ja vapaa-ajankalastajien 727 tuhatta kiloa.[4] Saaliin arvo on noin kaksi euroa kilolta. Ammattikalastajat nostavat muikkua etupäässä nuotilla ja trooleilla, vapaa-ajan kalastajat miltei yksinomaan verkoilla. Verkolla pyyntiin tarvitaan saaliin varmistumiseksi useita silmäkokoja." />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesällä kun vedet ovat lämmenneet ja pintaan on kerrostunut lämmintä vettä, verkoilla pyydettävät kookkaammat muikut oleskelevat syvännealueiden harppauskerroksessa. Kesän lämpötiloista ja vesistön koosta riippuen sisävesien harppauskerros on yleensä 5-15 metrin syvyydessä. Loppukesästä harppauskerros siirtyy syvempään. Elokuun lopulla muikkuverkot pitää laskea noin 10 metriä syvempään kuin juhannuksen aikaan. Kirkasvetisissä järvissä muikut oleskelevat päivällä useita metrejä syvemmässä kuin yöllä. Lämpiminä kesinä elokuussa muikkuja saa hyvin myös päivällä pohjasta, 15-20 m syvyydestä. Pohjapyynnissä sokkeliverkko on erinomainen välttämään kiiski- ja muuta pohjan pikkukalasaalista." />
+                    android:text="Kevättalvella auringonvalon lisääntyessä, tulee muikku päivisin jään alle syömään sinne kertynyttä ravintoa. Hämärän tullen muikut painuvat takaisin pohjaan. Jäiden lähtiessä muikut hajaantuvat ja niitä voi tavata päivisin myös matalasta vedestä." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Muikku kutee ensimmäisen kerran yleensä 2-kesäisenä. Yleensä kutu tapahtuu kovalle pohjalle 1-5 metrin syvyyteen loka-marraskuussa veden lämpötilan laskettua 4-7 asteeseen. Muikku on tehokas lisääntymään koska mätijyviä keskikokoisessa naaraassa on 2 000-4 000 kpl. Poikaset kuoriutuvat keväällä heti jäiden sulamisen jälkeen." />
+                    android:text="Vesien lämmettyä heinäkuussa, alkaa muikku kerääntyä kohti syvänteitä ja muodostaa siellä suuria parvia. Tyynenä kesäiltana voi muikkuparven löytää katseella, kun seuraa niiden pintakäyntejä. Päivisin parvia voi etsiä kaikuluotaimella. Myös kirkuva lokkiparvi paljastaa pinnan lähellä uivat parvet. Syvissä järvissä muikut liikkuvat päivisin välivedessä heti harppauskerroksen alla." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Muikun syönnösalueet sekä pyyntisyvyys vaihtelevat eri vuoden aikoina. Muikkuja voi pyytää myös jään alta. Talviverkot lasketaan alkutalvesta pintaan aivan jään alle, kiristettynä päätypainoilla pitkään avantoväliin. Muikkuverkot koetaan talvella vähintään joka toinen päivä. Kirkkaissa vesissä muikut painuvat kevään lumettomilla jäillä syvänteisiin, noin 20 metrin syvyyteen, mistä niitä saa hyvin pohjaverkoilla." />
+                    android:text="Kun vedet jäähtyvät kesähelteiden jälkeen, muikut valmistautuvat kutuun ja liikkuvat hiljalleen matalampiin vesiin kohti kutupaikkojansa. Sen kutuaika vaihtelee eri paikoissa lokakuulta joulukuulle, veden lämpötilan ollessa 5–7 astetta. Kutu tapahtuu parvissa lähellä rantaa 1–10 metrin syvyydessä. Muikkuverkot lasketaan kutupaikoille pohjaan pääasiassa yöksi, koska päivisin matalilla vesillä liikkuu muutakin pientä kalaa." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Keväällä, jäiden lähdettyä muikut ovat nälkäisiä ja syönnöstävät lämpenevästä pintavedestä jopa keskipäivällä. Parhaita paikkoja ovat syvännealueiden läheisyydessä olevat ensiksi lämpenevät suojaisat ja  matalammat sekä lahtialueet, minne muikut kerääntyvät syönnökselle. Järvissä missä on runsaasti särkikaloja ja pikkuahvenia, rajautuu pintapyynti vesien lämmettyä yli 10 asteen yleensä yön pimeimpään hetkeen." />
+                    android:text="Muikkuja voi pyytää myös jään alta. Talviverkot lasketaan alkutalvesta pintaan aivan jään alle, kiristettynä päätypainoilla pitkään avantoväliin. Muikkuverkot koetaan talvella vähintään joka toinen päivä. Kirkkaissa vesissä muikut painuvat kevään lumettomilla jäillä syvänteisiin, noin 20 metrin syvyyteen, mistä niitä saa hyvin pohjaverkoilla." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Muikkua pyydystetään troolilla, nuotalla, rysällä ja pienisilmäisellä muikkuverkolla." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Verkoilla tai pienillä pilkeillä, kuten morreilla." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Muikun ympärivuotisella kalastukella ei ole rajoituksia." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

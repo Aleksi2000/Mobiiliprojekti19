@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Siika on sisä- ja murtovesissä elävä lohikalojen lahkon parvikala. Siika on uhanalaisuusluokiteltu silmälläpidettäväksi. Siian tunnistaa hopeisista kyljistä, harmaista evistä sekä suhteellisen pienestä päästä. Siioilla on myös rasvaevä, jonka avulla sen voi helposti erottaa särkikaloista. Eri siikamuotojen kasvunopeus vaihtelee suuresti. Nopeakasvuisin muoto on vaellussiika, joka 7-vuotiaana on noin 50 cm:n mittainen ja painaa noin 1 kg." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Siiat liikkuvat päiväsaikaan aivan jään reunassa syömässä ravintoa." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Siikaa hakeutuu syvemmille vesille sitä mukaa kun rantavedet lämpenevät. Keskikesällä siiat käyvät päivisin syömässä matalassa rantavedessä. Heinä- ja elokuussa siiat painuvat päivällä pohjaan ja nousevat yön viileimpänä hetkenä pinnalle." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Syys-marraskuussa vesien jäähdyttyä 2 – 3 asteiseksi alkavat siiat kutemaan. Ne uivat suurina parvina rantoja seuraten, etsiessään kutupaikkaa ja partneria. Kutupaikat sijaitsevat matalassa vedessä sora- ja hiekkapohjilla, osa siikakannoista nousee jokiin lisääntymään." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Syys- ja kevätjäät ovat parasta aikaa.  Kudun alkamisaika riippuu paikasta ja vuodesta, mutta veden lämpötilan tulisi olla 2-6 astetta. Järvissä siika kutee mataliin vesiin sora- ja hiekkapohjaisiin paikkoihin. Merellä elävät karisiiat kutevat kareille syvänteiden reunoille. Merellä siiat ovat harvemmassa, mutta ne ovat pääsääntöisesti suhteellisen suurikokoisia. Siialle parhaat vuodenajat ovat syystalvi sekä kevättalvi." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Onkimalla, perholla tai uistelemalla" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Morkuskat eli morrit, madepilkit sekä pystypilkit. väri on yleensä kulta, hopea, keltainen tai musta. Syötiksi voidaan laittaa erilaisia kärpäsentoukkia ja matoja." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rauhoitettu mereen laskevassa joessa ja purossa 1.9.–30.11." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

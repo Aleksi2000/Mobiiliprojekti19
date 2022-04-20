@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Lohi on vaelluskala, joka viettää pääosan elämästään merissä, mutta vaeltaa jokiin kutemaan. Lohen levinneisyys kattaa Itämeren ja useita mereltä laskevia jokia. Lohi on elinvoimainen laji toisinkuin järvilohi, joka on erittäin uhanalainen. Lohi muistuttaa paljon taimenta, mutta helpoimmat erottavat tuntomerkit ovat pyrstössä ja täplissä. Lohella täpläkuvio ulottuu yläruumiissa kylkiviivaan asti, mutta taimenella täplitystä on koko kyljellä. Kalastettu lohi on yleensä 70–110 senttimetrin pituinen." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Pääasiallinen lohestaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,51 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Perhokalastus ja virvelöinti matalissa rantavesissä. Lohen kalastus veneellä soutaen on perinteinen, ja edelleen suosituin kalastusmuoto. Lohet ovat myös aktiivisimmillaan sateen aikaan. Lohien jokikalastuksessa tärkein huomioitava asia on ajankohta. Kalat nousevat jokeen kevään aikana, mutta ajankohdat voivat vaihdella paikkakunnittain. Hyvänä vinkkinä lohikalastukseen on tarkkailla vedenpinnan korkeutta, säätä sekä kalapaikkoja." />
 
                 <TextView
-                    android:id="@+id/textView13"
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="  Vieheet"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView17"
+                    android:id="@+id/textView40"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kesällä: Lohi on saaliina painava joten erityisesti vavan ja siiman on oltava riittävän vahvoja. Vieheinä vaaput, lusikat, jigit, perhot ja lipat." />
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/textView43"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="Talvella: Lusikat ja tasapainot soveltuvat sen pilkintään erinomaisesti. Lohi ottaa myös leecheihin, mikrotasapainoihin ja pystypilkkeihin, mutta harvemmin. Myös pilkittäessä tulee pilkin ja siiman olla riittävän vahvoja." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView18"
+                    android:id="@+id/textView42"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
-
-                <TextView
-                    android:id="@+id/textView15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kevät"
-                    android:textSize="16sp"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/textView19"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="60 cm, leveyspiirin 63°30’N pohjoispuolella Perämeressä 50 cm. Kiintiö vapaa-ajankalastuksessa 2 lohta/vrk/hlö. Rauhoitettu joessa ja purossa 1.9.–30.11. Huomaa järvilohen rajoitukset erikseen!" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

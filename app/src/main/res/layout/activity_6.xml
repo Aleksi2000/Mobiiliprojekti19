@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Kuha on ahveniin kuuluva petokala, jota esiintyy Suomessa maan etelä- ja keskiosissa. Kuha on lämpimien vesien kala, joka elää paitsi sisävesissä myös vähäsuolaisessa murtovedessä. Kuha on elinvoimainen kalalaji ja sen helpoimmat tuntomerkit ovat kaksi suurta selkäevää, joista toinen on piikikäs kuten ahvenella. Kuhan pituus on yleensä 30–60 senttimetriä ja paino 0,4-2,5 kiloa. Suotuisissa olosuhteissa kuha saattaa kasvaa yli viisikiloiseksi" />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Yleisesti taimen ja lohi erotetaan toisistaan sillä, että taimenella on pilkkuja koko kyljellä ja lohen pilkutus sijoittuu kylkiviivan yläpuolelle. Toinen yleinen ero on, että taimenen pyrstön pää on yleensä suora, ja lohella pyrstössä on lovi. Kumpikaan näistä menetelmistä ei ole täysin varma, ja on aiheuttanut ongelmia jopa tutkijoille. Suomunäytteellä asiasta saadaan kuitenkin täysi varmuus. Taimen on yleensä pituudeltaan 35–70 cm. Taimen on myös lohta pienempi. Taimenen lihan väri on yleensä oranssinpunainen, mutta väri voi vaihdella taimenen ravinnon sekä elin- ja kasvuympäristön mukaan valkoisesta tummanpunaiseen." />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Taimen syntyy keväisin kudusta yleensä jokiin ja pieniin puroihin. Sieltä se poikasvaiheen jälkeen joko suuntaa vaellukselle suurempiin vesistöihin tai jää synnyinseuduilleen elämään ns. paikallisena kalana. Muutaman vuoden kuluttua taimen palaa synnyinseudulleen kutemaan. Taimennaaras saavuttaa sukukypsyyden kolmesta viiteen -vuotiaana. Pariksi kelpaa missä tahansa elinvuosiaan viettänyt taimen, eli merivaellukselta saapunut suurikokoinen taimen saattaa valita kutuparikseen puroon paikalliseksi jääneen niukemmalla ravinnolla eläneen kalan siinä missä toisen merivaellukselta saapuneen kalankin.  Elinympäristön ravintotilanne ja mahdollisuudet oman elinympäristönsä ulkopuoliseen vesistöön pääsemiseen vaikuttavat suuntaako taimen poikasvaiheen jälkeen noin kahden vuoden ikäisenä vaellukselle järveen, mereen tai suurempaan jokeen, vai jääkö se paikallisena kalana asustamaan synnyinalueilleen. Kutupuroonsa jäävät taimenet kasvavat niukemmalla ravinnolla ja hitaammin, kuin suurilla selillä pikkukaloja ravinnokseen nauttivat yksilöt. Näin ollen puroon jäävät kalat saavuttavat sukukypsyyden pienempikokoisina kuin vaelluksella käyneet kalat." />
+                    android:text="Vedenalaiset kivikot ja penkkojen reunat, pääasiassa sisälahdissa.  Kuhat ovat yleensä hiukan syvemmällä kuin ahvenet. Noin 4 – 15 metrin syvyydessä. Jigaaminen ja erityisesti täsmäjigaaminen hyvä vaihtoehto. Kuhan silmät eivät kestä kirkasta suoraa auringonpaistetta, joten kuha tulee pintaveteen vain pilvisellä säällä." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kesällä kuhaa kalastetaan uistelemalla tai jigaamalla. Kuha tulee yleensä hellepäivien iltoina pintaveteen, jolloin vetouistelu on suotuisaa. Yleensä kuhan uistelun syvyys on 1-4 metriä. Kuhan uistelussa kannattaa mutkitella. Kaarteessa toisen puolen vaappujen vauhti kasvaa ja ne uivat syvemmälle. Toisella puolella vaaput hidastuvat, jolloin ne nousevat lähemmäs pintaa. Uistelunopeuden perussääntö on, ettei kuhaa voi koskaan uistella liian hitaasti." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Syksyllä kuhan kalastamiseen käy samat tavat kuin keväälläkin." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kuhat elelevät usein syvissä vesissä. Myös syvänteiden reunat hyviä paikkoja. Kuhaa pilkitään yleensä syys- ja kevätjäiltä." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Jigit, vaaput. Kuhauistelussa vaapulla pitää olla nokkalevy, joka vetää 1-4 metrin syvyyteen. Kuhan uistelussa ei tarvita peruketta, mutta siitä ei ole haittaakaan." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Pääasiassa 'tasurit' eli tasapaino- tai pystypilkit." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kuhan alamitta Suomessa on 42 cm." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

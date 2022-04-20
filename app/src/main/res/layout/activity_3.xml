@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Ahven on suomen yleisin kalalaji ja Suomen kansalliskala. Ahven on parvikala, joka liikkuu ja etsii ravintoa päivisin parvissa, mutta yöksi se menee yksin pohjalle kasvuston suojaan lepäämään. Ahven elää hitaasti virtaavissa joissa, syvissä järvissä ja lammissa ja Itämeren murtovedessä. Ahven myös sietää hapanta vettä paremmin kuin useat muut kalat. Ahven on elinvoimainen laji, joka on levinnyt miltei koko Suomen alueelle. Ahvenen tunnistaa parhaiten piikikkäästä selkäevästä sekä sen puna-oransseista vatsaevistä. Kooltaan ahven on yleensä 15-30 senttimetriä ja painoltaan 50-350 grammaa." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Keväällä ennen kutua ahvenen heittokalastus on haastavaa, ja parvia on vaikea löytää. Tämän takia silloin on paras aika viedä verkot kutupaikalle 1-3 metrin veteen, ojien ja jokien suualueille." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kasvillisuusvyöhykkeen laitamilta, karikoilta, syvänteiden rinteltä, jyrkkärantaisista niemenkärjistä. Kesäaikaan suuret ahvenet ovat useimmiten syvällä, ajoparvia lukuunottamatta. Joella kaloja löytyy mm. siltojen alta ja suvannoista." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kuukausi ennen jäiden tuloa alkavat ahvenet muodostaa isoja parvia ja ne kerääntyvät talvehtimisalueille syviin monttuihin tai niiden laitamille 5-15 metrin syvyyteen. Hyvää ahvenen verkotusaikaa kestää aina ensi jäille saakka. Näiden paikkojen lisäksi syksyisiä parvia voi löytää myös virtaisista salmista, karien, saarten ja rantapenkkojen reunoilta jne. Kaikuluotain on todella hyödyllinen apuväline syksyisten parvien etsinnässä, koska sillä näkee pohjanmuodot ja usein myös kalaparvet." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Ahvenia löytyy lähes jokaisesta vesistöstä ja hyvin monista paikoista. Yleensä suuremmat ahvenet lötköttävät syvänteiden pohjalla ja niiden harjanteilla, kun puolestaan pienet ahvenet viihtyvät paremmin matalikoissa. Tämä ei aina pidä paikkaansa, pieniä ahvenia voi hyvinkin tulla isojen ahventen olinpaikoista ja toisinpäin." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Sopiva viehesuositus vavalle on esim. 5-15g. Kelan tulisi mielellään olla kevyt, 1000- tai 2000-luokasta. Muutein hyviä vieheitä ovat vaaput, lipat, lusikat, pintavieheet ja jigit. Verkkokalastus." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Ahventa pyydetään hyvin monella eri vieheellä ja syötillä. Yleisesti kuitenkin pieniä ahvenia pyydetään pystypilkeillä, kun taas isommille ahvenille maistuu tasapainopilkit. Ahven-tasapaino on hyvä ottipeli isolle ahvenelle." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ahvenen ympärivuotisella kalastukella ei ole rajoituksia." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

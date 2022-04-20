@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Made eli matikka on ainoa makeissa vesissä esiintyvä turskalaji. Made on pitkulainen, väriltään vihreä ja limainen kala. Mateen myös tunnistaa turskakaloille tyypillisestä viiksisäikeestä. Madetta tavataan koko Suomen alueella, mutta Suomessa made on uhanalaisuusluokiteltu silmälläpidettäväksi. Mateet on kooltaan yleensä 30-70 senttimetriä ja painoltaan 0,5-3kg, harvoin yli 5kg." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Heti jäiden lähdettyä mateita saadaan lähempää rantaa, missä kevätkutuisia kaloja on paljon liikkeellä." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Vesien lämmettyä made hakeutuu syvänteiden viileään veteen ja saalistaa hämärän aikaan lähinnä haju- ja tuntoaistinsa avulla." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Vesien kylmennettyä ja ensijäiden aikaan mateet siirtyvät syvänteistä matalampiin rantavesiin. Ne liikkuvat aktiivisesti etsien pohjalta ravintoa. 2-5 m syvyinen vesi paras kalastukselle." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Matikkaa pilkitään tavallisesti öisin, vaikka niitä voi saada harvakseltaan myös päiväpilkinnän sivutuotteena. Tammi-maaliskuussa made kutee matalikoilla tai joissa muutaman metrin syvyydessä yleensä kivikko- tai hiekkapohjalle. Tällöin verkkojen lisäksi hyviä madepyydyksiä ovat katiskat ja rysät. Heti kudun jälkeen mateet levittäytyvät syvempiin vesiin entisille olinpaikoilleen." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Lusikat, verkot, katiskat ja pystymerrat." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Madevapa on oiva peli talvella. Yksinkertaisimmillaan madeonki on 25-30 sentin mittainen, kummastakin päästä lovettu puukapula, jonka ympärille on kiedottu kymmenkunta metriä todella paksua kuitusiimaa. Made ottaa kiinni myös morreihin ja tasa-paino pilkkeihin. Syötteinä matikalle toimii pienet ahvenet, särjet tai kiisket." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Matikan ympärivuotisella kalastukella ei ole rajoituksia." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

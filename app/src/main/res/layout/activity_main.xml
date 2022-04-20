@@ -143,6 +143,11 @@
                 android:background="@null"
                 app:srcCompat="@drawable/sayne" />
 
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
         </LinearLayout>
 
     </ScrollView>

@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Särki on makean ja murtoveden elinvoimainen kalalaji, joka on levinnyt miltei koko Suomen alueelle pohjoisinta lappia lukuunottamatta. Hopeanhohtoiset suomut ja punaiset silmät ovat särjen tunnusmerkkejä. Särki kasvaa tavallisesti 10–25 senttimetrin pituiseksi ja enimmillään 30–35 senttimetrin mittaiseksi ja 300–500 gramman painoiseksi." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Särki kutee keväällä, joten särkeä saa parhaiten tiheän kasvuston seasta rannan lähettyviltä ja kivikoista." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Särkiparven löytää useimmiten rannan läheltä. Se viihtyykin hyvin runsasravinteisessa ja matalassa vedessä. Kesällä särkeä ongitaan kasvillisuusvyöhykkeestä läheltä rantaa. Isommat särjet ovat hieman syvemmällä." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Tämäntyyppinen kala suosii mutaista vettä elinympäristöönsä, erityisesti joet. Paras asia on kalastaa heittämällä. Särjellä on hyvä näkö, ja kalan epäilys ja varovaisuus lisääntyvät kirkkaalla vedellä. Kostealla kylmällä säällä syksyllä tai sumun aikana voit tuskin luottaa hyvään puremaan. Suuren saaliin mahdollisuuksien lisäämiseksi on parasta suunnitella kalastus kauniina päivänä, jolloin on paljon auringonpaistetta." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Särkeä tavataan harvoin aavoilta alueilta. Useimmiten ne viihtyvät rannan tuntumassa, sekä purojen suualueilla. Särkiä tavataan monesti suurissa parvissa. Niiden tartutus voi olla vaikeaa, koska särki ensin maistelee syöttiä, toisin kuin muut lajit, kuten ahven, jotka nappaavat syöttiin kerralla." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Tahnat, perhot, erilaiset hyönteiset koukussa. " />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Pienten kalojen pilkit, kuten morrit ja pystypilkit. Ohutsiimainen vapa, jossa säädettävä kärjen herkkyys olisi hyvä. Särkeä ongitaan kevyillä välineillä. Siimana kannattaa käyttää ohutta. (0,15-0,20 mm). Koukkujenkin tulee olla pieniä, sillä etenkin pienillä särjillä on hyvin pieni suu." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Särjen ympärivuotisella kalastukella ei ole rajoituksia." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

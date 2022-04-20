@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Hauki on suomen yleinen sisä- ja rannikkovesissä esiintyvä petokala. Hauki on elinvoimainen laji, jonka levinneisyysalue ulottuu koko Suomen vesistöille. Lisäksi hauki on sopeutunut elämään monenlaisissa vesistöissä kuten järvissä, joissa ja vähäsuolaisessa Itämeressä. Hauen tunnistaa pitkulaisesta rakenteesta ja vihreästä värityksestä. Suurimmat hauet saattavat painaa jopa yli 20kg." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,94 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Rantavedet, kaislikoiden reunat ja harvan kaislikon sisältä.      Hauki ei syö juuri kudun aikaan, mutta hauen syönti on parhaimmillaan huhti-toukokuun vaihteessa, kun kaisla alkaa vihertämään." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Ilta- ja aamuhämärässä tai sadesäällä, kun vesi on viileämpää. Edelleen kaislikon reunat ja esim. kivikot hyviä paikkoja. Pienehköt lusikkauistimet, lipat ja jigit ovat parhaita haukivieheitä kesällä. Niiden vilkas liike tehoaa haukiin lämpimän veden aikana. Kesällä suuren hauen saalistaminen haasteellisempaa, koska hauet ovat paljon passiivisempia kesällä." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Rantavesistö ja kaislikoiden reunat useimmiten parhaita haukipaikkoja. Syksyllä kylmän veden aikaan isotkin hauet ovat rantojen lähellä, joten silloin kannattaa käyttää isoja vieheitä. Kellonajalla ei niin ole väliä, riittää, että on valoa." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Syvänteistä kalasyöteillä ootto-onkimalla. Kannattaa kiinnittää huomiota avannon kokoon, jotta se on tarpeeksi suuri." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Lusikkauistimet, vaaput, spinnerbaitit, haukilipat,heittoperhot ja jerkkivaaput" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Tavallisimmin haukea pyydetään tasapainopilkeillä ja lusikoilla. Niitä saa toki myös pystyillä satunnaisesti muun kalan pilkinnän ohessa. Mormyskoihin ne ottavat harvemmin. Haukea pyydettäessä kannattaa käyttää vahvempaa vapaa, koska pienikin hauki katkaisee helposti ohuen siiman." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hauen ympärivuotisella kalastukella ei ole rajoituksia." />
+
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

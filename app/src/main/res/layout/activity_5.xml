@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Taimen (Salmo trutta) on ulkonäöltään hyvin paljon lohta muistuttava eurooppalainen lohikalalaji." />
+                    android:text="Taimen on hyvin paljon lohta muistuttava lohikalalaji. Taimenta istutetaan Suomessa useisiin vesistöihin, jolloi lajista puhutaan rasvaevättömänä taimenena. Taimen on Suomessa erittäin uhanalainen laji ja tämän takia rasvaevällinen taimen on kokonaan rauhoitettu 2019 vuodesta lähtien. Taimen on levinnyt koko suomen alueelle. Taimenen tunnistaa helpoiten koko kyljeltä täplikkäällä kuvioinnilla. " />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,79 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
-
-                <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Syksy"
-                    android:textSize="16sp"
-                    android:textStyle="bold"/>
-
-                <TextView
-                    android:id="@+id/textView17"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Virvelöitäessä kannattaa heittää kivien lähelle ja monttuihin. Kalapaikkana paras on lämmin alue ja kevyt tuuli. Aallokossa pintavesi ei lämpeä, joten kalastus hankaloituu. Uittotekniikka vaikuttaa siihen, iskeekö taimen vieheeseen. Tärkeintä on pysäyttää kelaus vähän väliä niin, että viehe vaipuu syvemmälle. Keväällä paras aika meritaimenen kalastukseen on huhtikuussa jäiden lähdöstä toukokuuhun. Tämän jälkeen vesi lämpenee liikaa (+15 alkaa olla jo liian paljon), joten kesä ei ole hyvää aikaa taimenen kalastukseen." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="On parasta pyytää taimenta syksyllä päivällä kirkkaalla ja aurinkoisella säällä. Alkusyksystä taimenta löytyy matalista syvyyksistä. Paras aika meritaimenen kalastukseen on lokakuusta jäiden tuloon, yleensä joulukuuhun. Lokakuussa vedet ovat varmasti viilentyneet tarpeeksi. Kutuaikaan taimenta ei voi kalastaa joista tai puroista." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Taimenet oleilevat yleisesti lähellä rantoja, erittäinkin matalissa vesissä, joissa on riittävästi suojaa ja ravintoa. Kun vesi on erittäin kylmää, pääsääntöisesti taimen väistää matalassa aaltoja ja tuulta." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Taimenta heittokalastetaan rannalta joessa lusikkauistimilla. Heittoperhotkin toimivat. Normaali haukivapa on pituudeltaan sopiva veneestä tapahtuvaan meritaimenen kalastukseen. Laadukas nailonsiima on parempi taimenen väsyttämisessä kuin venymätön kuitusiima. Haukiperuke haittaa taimenen kalastuksessa." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Yleensä taimenen pyyntiin käytetään lusikoita ja tasapainoja. Pystypilkitkin kelpaavat toki taimenelle. Myös tahna on varteenotettava syötti pilkittäessä jalokaloja. Pilkin ja siiman tulee olla myös talvella vahvoja taimenien suuren koon vuoksi." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rasvaevällinen rauhoitettu kokonaan Suomenlahdella ja sisävesissä leveyspiirin 64°00’N eteläpuolella. \nRasvaevällinen rauhoitettu kokonaan kaikilla merialueilla vuodesta 2019. \nRasvaevällisen pyyntimitta leveyspiirien 64°00’N ja 67°00’N välissä olevissa sisävesissä 60 cm. \nSuomenlahden ulkopuolisella merialueella 60 cm vuoden 2018 loppuun saakka. \nRasvaevällisen pyyntimitta leveyspiirin 67°00’N pohjoispuolella 50 cm. \nRasvaevätön 50 cm Enintään 45 cm, jos pyydetty sellaisesta purosta tai lammesta, johon ei ole vaellusyhteyttä merestä tai järvestä" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

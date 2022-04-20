@@ -8,6 +8,7 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"
+        android:paddingBottom="125dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Yleistietoa"
+                android:text="  Yleistietoa"
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
                     android:layout_width="92dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="" />
+                    android:text="Säyne, myös säynävä, säynäs, säynäjä, on suhteellisen suuri särkikaloihin kuuluva kalalaji. Se muistuttaa särkeä, mutta on tätä isompi, pienempisuomuinen ja keltasilmäinen. Säyne on suurikokoinen särkikalaksi: tavallisesti se kasvaa 40–50 cm pitkäksi ja painaa puolesta yli kahteen kiloon. Säyne on sisävesikala ja Suomessa säyne esiintyy lähes koko maassa pohjoisinta Lappia lukuun ottamatta." />
 
                 <ImageView
                     android:id="@+id/imageView6"
@@ -61,21 +62,15 @@
                     android:id="@+id/textView4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Pyydystäminen"
+                    android:text="  Kalastaminen"
                     android:textSize="16sp"
                     android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/textView11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Muikku on Suomessa sisävesien ammattikalastajien tärkein saaliskala. Ammattikalastajat pyytivät Suomen sisävesiltä yhteensä 5,17 miljoonaa kiloa kalaa vuonna 2018. Tästä muikun osuus oli 2,43 miljoonaa kiloa, kun toiseksi jääneen kuhan osuus oli vain 727 tuhatta kiloa. Vuonna 2018 muikkua kalastettiin yhteensä 3,33 miljoonaa kiloa. Ammattikalastajien muikkusaalis niin sisä- kuin merivesiltä oli 2,6 miljoonaa kiloa ja vapaa-ajankalastajien 727 tuhatta kiloa.[4] Saaliin arvo on noin kaksi euroa kilolta. Ammattikalastajat nostavat muikkua etupäässä nuotilla ja trooleilla, vapaa-ajan kalastajat miltei yksinomaan verkoilla. Verkolla pyyntiin tarvitaan saaliin varmistumiseksi useita silmäkokoja." />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kesä"
+                    android:text="    Kevät"
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
@@ -83,49 +78,93 @@
                     android:id="@+id/textView16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Kudulle säyne hankkiutuu mataliin virtapaikkoihin pian jäiden lähdön jälkeen. Merestä se nousee suistoihin, jokiin ja pieniinkin puroihin, mutta kutee myös meren ruovikkoisilla lahtialueilla. Kutu kestää yleensä vain muutamia päiviä." />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Syksy"
+                    android:text="    Kesä"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Pian kudun jälkeen säyneet siirtyvät matalista rantavesistä usein järvien ja meren saariston selkävesille tai niiden laitamille. Kesäisin säyneet liikkuvat aktiivisesti parvina ravintoa hakien, joten niitä voi saada kelpo saaliin muutamalla verkolla tai pitkäsiimalla." />
 
                 <TextView
                     android:id="@+id/textView14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Talvi"
+                    android:text="    Syksy"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Pintavesien viilennettyä säyneet hakeutuvat selkävesien syvempiin ja lämpimämpiin vesikerroksiin." />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Kevät"
+                    android:text="    Talvi"
                     android:textSize="16sp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/textView19"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="" />
+                    android:text="Talvella säyneet hakeutuvat syvemmille vesialueille." />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Vieheet ja varusteet"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kesällä: Säynettä voi pyydystää verkolla, mato-ongella tai heittouistimella, kuten lippauistimella. Myös rysiä ja pitkäsiimoja käytetään." />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Talvella: Yleensä säynäviä pyydetään pystypilkeillä, mutta pienillä tasapainopilkeilläkin säyneitä on saatu." />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="31dp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="  Rajoitukset ⚠️"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Säynävän ympärivuotisella kalastukella ei ole rajoituksia." />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
